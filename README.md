@@ -1,11 +1,11 @@
 # dashboard-commons
 
-Library of MoEngage's Common React Components 
+Library of Cipherhacks's Common React Components 
 
 ## Install
 
-npm install @moengage/commons
+npm install @cipherhack/commons
 
 # Docs
 
-[Component documentation](https://moengage.github.io/dashboard-commons/)
+[Component documentation](https://rishabhgupta.github.io/cipherhack-commons/)
