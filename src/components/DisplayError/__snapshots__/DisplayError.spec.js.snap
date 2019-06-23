@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hides reload button bar by default 1`] = `
+<div
+  className="moe-semantic"
+  id="moe-page-loader-wrapper"
+  style={
+    Object {
+      "height": "300px",
+      "position": "relative",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "left": "0",
+        "margin": "auto",
+        "position": "absolute",
+        "top": "5%",
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      className="css-w43jqz"
+    >
+      <img
+        alt="Error in loading"
+        src=""
+      />
+      <h1
+        style={
+          Object {
+            "color": "#6f6d6d",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Alert
+      </h1>
+      <h4
+        className="m-t-10"
+        style={
+          Object {
+            "color": "#868585",
+          }
+        }
+      >
+        Something went wrong.
+      </h4>
+    </div>
+  </div>
+</div>
+`;
