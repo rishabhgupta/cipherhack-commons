@@ -26,7 +26,7 @@
     "react-app-polyfill": "^1.0.1",
     "react-dom": "^16.8.6"
   },
-  "homepage": "http://moengage.github.io/dashboard-commons/",
+  "homepage": "http://rishabhgupta.github.io/cipherhack-commons/",
   "scripts": {
     "prestart": "npm run gen:docs",
     "start": "npm-run-all --parallel start:docs gen:docs-watch",
