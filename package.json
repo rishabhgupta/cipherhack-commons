@@ -139,6 +139,7 @@
     "cpx": "^1.5.0",
     "cross-env": "^5.2.0",
     "css-loader": "2.1.1",
+    "cz-conventional-changelog": "^2.1.0",
     "dotenv": "6.2.0",
     "dotenv-expand": "4.2.0",
     "enzyme": "^3.10.0",
@@ -188,5 +189,10 @@
     "webpack-dev-server": "3.2.1",
     "webpack-manifest-plugin": "2.0.4",
     "workbox-webpack-plugin": "4.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
