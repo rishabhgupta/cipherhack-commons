@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dashboard-commons/static/css/main.4c316954.chunk.css",
+    "main.js": "/dashboard-commons/static/js/main.1fe3e86d.chunk.js",
+    "main.js.map": "/dashboard-commons/static/js/main.1fe3e86d.chunk.js.map",
+    "runtime~main.js": "/dashboard-commons/static/js/runtime~main.aff8923b.js",
+    "runtime~main.js.map": "/dashboard-commons/static/js/runtime~main.aff8923b.js.map",
+    "static/css/2.52738377.chunk.css": "/dashboard-commons/static/css/2.52738377.chunk.css",
+    "static/js/2.62448630.chunk.js": "/dashboard-commons/static/js/2.62448630.chunk.js",
+    "static/js/2.62448630.chunk.js.map": "/dashboard-commons/static/js/2.62448630.chunk.js.map",
+    "index.html": "/dashboard-commons/index.html",
+    "precache-manifest.79c9a1bff66b59c415bafce748a02c84.js": "/dashboard-commons/precache-manifest.79c9a1bff66b59c415bafce748a02c84.js",
+    "service-worker.js": "/dashboard-commons/service-worker.js",
+    "static/css/2.52738377.chunk.css.map": "/dashboard-commons/static/css/2.52738377.chunk.css.map",
+    "static/css/main.4c316954.chunk.css.map": "/dashboard-commons/static/css/main.4c316954.chunk.css.map"
+  }
+}
