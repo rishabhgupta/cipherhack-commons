@@ -18,7 +18,9 @@ const Button = styled.button`
 `;
 
 /** Used to display error within a component or a page */
-const DisplayError = ({imgSrc, errorHeading, errorSubHeading, clickAction}) => (
+const DisplayError = ({
+    imgSrc, errorHeading, errorSubHeading, clickAction,
+}) => (
     <div id="moe-page-loader-wrapper" className="moe-semantic" style={{ height: '300px', position: 'relative' }}>
         <div style={{
             width: '100%', margin: 'auto', top: '5%', left: '0', position: 'absolute',
@@ -53,3 +55,4 @@ DisplayError.propTypes = {
 };
 
 export default DisplayError;
+q

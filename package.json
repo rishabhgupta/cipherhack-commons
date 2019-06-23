@@ -41,8 +41,9 @@
     "build:commonjs": "cross-env NODE_ENV=production babel ./src/components --out-dir ./lib --ignore spec.js",
     "prebuild:lib": "rimraf ./lib",
     "build:lib": "npm-run-all --parallel build:commonjs build:css build:copy-files",
-    "prepublish": "npm run build:lib",
-    "build:copy-files": "node scripts/copyBuildFiles.js"
+    "prepublish": "npm run buieslintld:lib",
+    "build:copy-files": "node scripts/copyBuildFiles.js",
+    "lint": "eslint src"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -145,6 +146,7 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-config-react-app": "^4.0.1",
     "eslint-loader": "2.1.2",
     "eslint-plugin-flowtype": "2.50.1",
