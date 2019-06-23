@@ -27,6 +27,11 @@
     "react-dom": "^16.8.6"
   },
   "homepage": "http://rishabhgupta.github.io/cipherhack-commons/",
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
+  },
   "scripts": {
     "prestart": "npm run gen:docs",
     "start": "npm-run-all --parallel start:docs gen:docs-watch",
@@ -159,6 +164,7 @@
     "gh-pages": "^2.0.1",
     "highlight.js": "^9.15.8",
     "html-webpack-plugin": "4.0.0-beta.5",
+    "husky": "^2.4.1",
     "identity-obj-proxy": "3.0.0",
     "is-wsl": "^1.1.0",
     "jest": "24.7.1",
