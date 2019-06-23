@@ -1,4 +1,4 @@
-# dashboard-commons
+# cipherhack-commons
 
 Library of Cipherhacks's Common React Components 
 
